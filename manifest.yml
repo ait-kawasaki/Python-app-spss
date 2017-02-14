@@ -10,3 +10,5 @@ applications:
   - IBM Watson Machine Learning-j0
   - Compose for MySQL-mp
   - ElephantSQL-iw
+env:
+  ENABLE_BLUEMIX_DEV_MODE: "true"
