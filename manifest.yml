@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 128M
+  instances: 1
+  domain: mybluemix.net
+  name: Python-app-spss
+  host: Python-app-spss
+  disk_quota: 1024M
+  services:
+  - IBM Watson Machine Learning-j0
+  - Compose for MySQL-mp
+  - ElephantSQL-iw
