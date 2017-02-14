@@ -9,7 +9,7 @@ server = BaseHTTPServer.HTTPServer
 handler = CGIHTTPServer.CGIHTTPRequestHandler
 os.chdir('static')
 server_address = ("", port)
-handler.cgi_directories = ["/cgi-bin"]
+# handler.cgi_directories = ["/cgi-bin"]
 
 httpd = server(server_address, handler)
 httpd.serve_forever()
