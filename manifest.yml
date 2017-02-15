@@ -1,6 +1,6 @@
 applications:
 - path: .
-  memory: 128M
+  memory: 1024M
   instances: 1
   domain: mybluemix.net
   name: Python-app-spss
@@ -10,5 +10,5 @@ applications:
   - IBM Watson Machine Learning-j0
   - Compose for MySQL-mp
   - ElephantSQL-iw
-env:
-  ENABLE_BLUEMIX_DEV_MODE: "true"
+  env:
+    BLUEMIX_APP_MGMT_ENABLE: devconsole shell
